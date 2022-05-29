@@ -1,5 +1,7 @@
 <?php
-    include('config.php');
+    require('./classes/Mysql.php');
+    
+    include('./config.php');
     Mysql::test();
 ?>
 
