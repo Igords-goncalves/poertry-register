@@ -1,3 +1,8 @@
+<?php
+    include('config.php');
+    Mysql::test();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
